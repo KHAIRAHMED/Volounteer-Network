@@ -1,0 +1,39 @@
+ /* search from section */
+
+.searchInputSection{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#submitInput{
+    background-color: #3F90FC;
+    color: white;
+    border: 1px solid gray;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 35px;
+    width: 80px;
+}
+#searchInput{
+    background: white;
+    color: black;
+    border: 1px solid gray;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+    height: 34px;
+    width: 280px;
+}
+.searchInputSection input[type="text"]:focus{
+    outline: none;
+}
+
+
+/* event list section  */
+.eventList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px,1fr));
+    grid-gap : 10px;
+}

@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .link{
+    display: flex;
+}
+.link li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: emoji;
+}
+.link .adminButton{
+    background: #3F90FC;
+    /* padding : 20px */
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    color: white;
+}
+.link .resisterButton{
+    background: #434141;
+    /* padding : 20px */
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    color: white;
+}
